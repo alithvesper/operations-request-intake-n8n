@@ -1,1 +1,9 @@
-
+{
+  "ai_category": "unknown",
+  "ai_requested_action": "",
+  "ai_summary": "",
+  "ai_confidence": 0.30,
+  "ai_ambiguous": true,
+  "ai_review_reason": "insufficient_or_ambiguous_information",
+  "ai_high_impact_flag": true
+}
