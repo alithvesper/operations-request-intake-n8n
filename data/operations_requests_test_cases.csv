@@ -1,1 +1,9 @@
-
+request_id,submitted_at,requester_token,request_type,business_unit,priority_source,request_details,supporting_reference,authorization_status,duplicate_of,expected_route,expected_status,notes
+OPS-3001,2026-10-18T10:00:00-07:00,SYN-REQ-001,data_correction,fulfillment,normal,Correct synthetic shipping reference in fulfillment tracker,REF-3001,confirmed,,data_quality_queue,ready,valid complete request
+OPS-3002,2026-10-18T10:05:00-07:00,SYN-REQ-002,access_request,operations,normal,Request synthetic internal reporting access,REF-3002,pending,,review_queue,needs_review,authorization not confirmed
+OPS-3003,2026-10-18T10:10:00-07:00,SYN-REQ-003,fulfillment_exception,fulfillment,high,Synthetic shipment delayed because carrier pickup was missed,REF-3003,confirmed,,fulfillment_queue,ready,valid high priority request
+OPS-3004,2026-10-18T10:15:00-07:00,SYN-REQ-004,vendor_issue,vendor_operations,normal,Synthetic vendor invoice reference does not match purchase record,REF-3004,confirmed,,vendor_operations_queue,ready,valid complete request
+OPS-3005,2026-10-18T10:20:00-07:00,SYN-REQ-004,vendor_issue,vendor_operations,normal,Synthetic vendor invoice reference does not match purchase record,REF-3004,confirmed,OPS-3004,duplicate_queue,duplicate,duplicate key matches prior request
+OPS-3006,2026-10-18T10:25:00-07:00,SYN-REQ-006,,operations,normal,Request synthetic operational update,REF-3006,confirmed,,review_queue,needs_review,missing request type
+OPS-3007,2026-10-18T10:30:00-07:00,SYN-REQ-007,quality_issue,quality_assurance,high,Synthetic quality check found repeated packaging defect,REF-3007,confirmed,,quality_assurance_queue,ready,valid quality issue
+OPS-3008,2026-10-18T10:35:00-07:00,SYN-REQ-008,general_request,operations,high,Synthetic request involves potential fraud and legal action,REF-3008,confirmed,,review_queue,needs_review,high impact language
