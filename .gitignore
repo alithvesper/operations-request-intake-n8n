@@ -1,1 +1,10 @@
-
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials/
+__pycache__/
+.DS_Store
+*.sqlite
+*.db
