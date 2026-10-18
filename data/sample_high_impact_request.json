@@ -1,1 +1,11 @@
-
+{
+  "request_id": "OPS-3008",
+  "submitted_at": "2026-10-18T10:35:00-07:00",
+  "requester_token": "SYN-REQ-008",
+  "request_type": "general_request",
+  "business_unit": "operations",
+  "priority_source": "high",
+  "request_details": "Synthetic request involves potential fraud and legal action",
+  "supporting_reference": "REF-3008",
+  "authorization_status": "confirmed"
+}
