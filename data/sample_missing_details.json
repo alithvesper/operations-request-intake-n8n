@@ -1,1 +1,11 @@
-
+{
+  "request_id": "OPS-3002",
+  "submitted_at": "2026-10-18T10:05:00-07:00",
+  "requester_token": "SYN-REQ-002",
+  "request_type": "access_request",
+  "business_unit": "operations",
+  "priority_source": "normal",
+  "request_details": "Request synthetic internal reporting access",
+  "supporting_reference": "REF-3002",
+  "authorization_status": "pending"
+}
