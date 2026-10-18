@@ -1,1 +1,11 @@
-
+{
+  "request_id": "OPS-3005",
+  "submitted_at": "2026-10-18T10:20:00-07:00",
+  "requester_token": "SYN-REQ-004",
+  "request_type": "vendor_issue",
+  "business_unit": "vendor_operations",
+  "priority_source": "normal",
+  "request_details": "Synthetic vendor invoice reference does not match purchase record",
+  "supporting_reference": "REF-3004",
+  "authorization_status": "confirmed"
+}
