@@ -1,1 +1,11 @@
-
+{
+  "request_id": "OPS-3001",
+  "submitted_at": "2026-10-18T10:00:00-07:00",
+  "requester_token": "SYN-REQ-001",
+  "request_type": "data_correction",
+  "business_unit": "fulfillment",
+  "priority_source": "normal",
+  "request_details": "Correct synthetic shipping reference in fulfillment tracker",
+  "supporting_reference": "REF-3001",
+  "authorization_status": "confirmed"
+}
