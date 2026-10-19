@@ -1,1 +1,47 @@
-
+{
+  "type": "object",
+  "required": [
+    "ai_category",
+    "ai_requested_action",
+    "ai_summary",
+    "ai_confidence",
+    "ai_ambiguous",
+    "ai_review_reason",
+    "ai_high_impact_flag"
+  ],
+  "properties": {
+    "ai_category": {
+      "type": "string",
+      "enum": [
+        "data_correction",
+        "access_request",
+        "fulfillment_exception",
+        "vendor_issue",
+        "process_blocker",
+        "quality_issue",
+        "general_request",
+        "unknown"
+      ]
+    },
+    "ai_requested_action": {
+      "type": "string"
+    },
+    "ai_summary": {
+      "type": "string"
+    },
+    "ai_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "ai_ambiguous": {
+      "type": "boolean"
+    },
+    "ai_review_reason": {
+      "type": "string"
+    },
+    "ai_high_impact_flag": {
+      "type": "boolean"
+    }
+  }
+}
