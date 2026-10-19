@@ -1,1 +1,69 @@
-
+[
+  {
+    "request_id": "OPS-3001",
+    "status": "ready",
+    "route": "data_quality_queue",
+    "errors": [],
+    "high_impact_terms": []
+  },
+  {
+    "request_id": "OPS-3002",
+    "status": "needs_review",
+    "route": "review_queue",
+    "errors": [
+      "review:authorization_not_confirmed"
+    ],
+    "high_impact_terms": []
+  },
+  {
+    "request_id": "OPS-3003",
+    "status": "ready",
+    "route": "fulfillment_queue",
+    "errors": [],
+    "high_impact_terms": []
+  },
+  {
+    "request_id": "OPS-3004",
+    "status": "ready",
+    "route": "vendor_operations_queue",
+    "errors": [],
+    "high_impact_terms": []
+  },
+  {
+    "request_id": "OPS-3005",
+    "status": "duplicate",
+    "route": "duplicate_queue",
+    "errors": [
+      "duplicate:possible_duplicate"
+    ],
+    "high_impact_terms": []
+  },
+  {
+    "request_id": "OPS-3006",
+    "status": "needs_review",
+    "route": "review_queue",
+    "errors": [
+      "missing:request_type"
+    ],
+    "high_impact_terms": []
+  },
+  {
+    "request_id": "OPS-3007",
+    "status": "ready",
+    "route": "quality_assurance_queue",
+    "errors": [],
+    "high_impact_terms": []
+  },
+  {
+    "request_id": "OPS-3008",
+    "status": "needs_review",
+    "route": "review_queue",
+    "errors": [
+      "review:high_impact_language"
+    ],
+    "high_impact_terms": [
+      "fraud",
+      "legal action"
+    ]
+  }
+]
